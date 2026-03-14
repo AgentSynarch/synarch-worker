@@ -1,0 +1,20 @@
+{
+  "name": "synarch",
+  "version": "2.1.0",
+  "description": "SYNARCH CLI -- Deploy, monitor, and manage agents from the terminal.",
+  "bin": {
+    "synarch": "./bin/synarch.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node bin/synarch.js",
+    "test": "node src/self-test.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
